@@ -8,11 +8,11 @@ Original file is located at
 
 # Kelompok 6
 Nama anggota:
-- Faisal Surya Saputra (Lead)
+- Faisal Surya Saputra (103012330152)
 - Yudis Akbar
 - Caesar Gian
 
-Sumber dataset yang diambil https://www.kaggle.com/datasets/ardava/dataset-klasifikasi-status-pinjaman
+Sumber dataset yang diambil https://www.kaggle.com/datasets/faisalwp/dataset-klasifikasi-status-pinjaman/data
 
 ## Import Library & Tools.
 Disini kita akan mengimport semua library & tools yang akan kita gunakan untuk mengolah dan memprediksi `status_pinjaman`
@@ -21,7 +21,7 @@ Disini kita akan mengimport semua library & tools yang akan kita gunakan untuk m
 import kagglehub
 
 # Download latest version
-path = kagglehub.dataset_download("ardava/dataset-klasifikasi-status-pinjaman")
+path = kagglehub.dataset_download("faisalwp/dataset-klasifikasi-status-pinjaman")
 
 print("Path to dataset files:", path)
 
